@@ -1,0 +1,177 @@
+/*
+|--------------------------------------------------------------------------
+| General
+|--------------------------------------------------------------------------
+*/
+
+h1, .skin-color {
+	color:#e74c3c;
+}
+select {
+	cursor: pointer;
+}
+.btn-skin {
+	background-color:#e74c3c;
+	color:white;
+}
+.btn-skin:hover {
+	background-color:#d62c1a;
+	color:white;
+}
+
+/*
+|--------------------------------------------------------------------------
+| General
+|--------------------------------------------------------------------------
+*/
+
+/*
+|--------------------------------------------------------------------------
+| Homepage
+|--------------------------------------------------------------------------
+*/
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 300;	
+}
+.homepage-nav-user{
+	padding-bottom: 0 !important;
+	padding-top:0 !important;
+}
+#homepage-background {
+	background-image:url('../images/background.png');
+	height: 100%;
+	padding-top: 10%;
+	padding-bottom: 15%;
+       	background-size:cover;	
+}
+#homepage-background .container {
+	padding-right: 10%;
+	padding-left: 10%;
+}
+.homepage-text {
+	color:#FFF;
+    font-size: 21px;
+    line-height: 31px;
+
+}
+.homepage-text h1 {
+	font-size: 38px;
+    line-height: 44px;
+    margin-bottom: 30px;
+
+}
+#homepage-connexion {
+	margin-bottom: 10px;
+}
+#homepage-inscription, #homepage-connexion {
+	background-color: #fff;
+	padding:10px;
+	border-radius: 5px;
+}
+.homepage-btn {
+	background-color: #e74c3c;
+	border-radius: 5px;
+	border: none;
+	color:#FFF;
+	padding: 5px;
+}
+.homepage-btn:hover{
+	background-color: #cd2a19;
+}
+#homepage-footer {
+	position: relative;
+	bottom: 0;
+}
+#homepage-cover {
+	max-height: 200px;
+}
+/* Surcharge row timeline */
+.timeline {
+	margin-left:0 !important;
+	margin-right:0 !important;
+}
+/*.dropzone {
+	min-height: 140px;
+    width: 140px;
+}*/
+
+/*
+|--------------------------------------------------------------------------
+| End Homepage
+|--------------------------------------------------------------------------
+*/
+
+/*
+|--------------------------------------------------------------------------
+| Inscription
+|--------------------------------------------------------------------------
+*/
+#ui-id-1{
+	cursor: pointer;
+	list-style: none;
+}
+.ui-helper-hidden-accessible div {
+	display: none !important;
+}
+.inscription-txt {
+	font-size:19px;
+}
+#profile-picture {
+	max-height: 150px;
+	min-height: 150px;
+	/*height: 140px;
+    line-height: 140px;
+    min-height: 140px;
+    padding: 0;
+    text-align: center;*/
+}
+#profile-picture .dz-default {
+	bottom: 0;
+    height: 140px;
+    left: inherit;
+    margin: 0;
+    padding: 50px 0;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+#profile-picture .dz-default span {
+	display: table-cell;
+	font-size: 15px;
+}
+#profile-picture .dz-preview {
+	background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+    border: 1px solid #acacac;
+    display: inline-block;
+    height: 140px;
+    padding: 6px;
+    position: relative;
+    top: -15px;
+    vertical-align: top;
+    margin:0;
+}
+/*#profile-picture img {
+	vertical-align: middle;
+	height: 50px;
+}*/
+.inscription-avatar {
+	margin-bottom:35px !important;
+}
+input[type="file"] {
+    display: none !important;
+}
+.inscription-btn{
+	margin-bottom: 50px;
+    margin-top: 150px;
+}
+.inscription-btn input {
+	width:140px;
+}
+
+/*
+|--------------------------------------------------------------------------
+| End Inscription
+|--------------------------------------------------------------------------
+*/
